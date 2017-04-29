@@ -11,6 +11,26 @@ header {
     color: white;
 }
 
+div {
+  float: left;
+}
+div > div {
+  background: #2C3E50;
+}
+#big_wrap, #small_wrap {
+  width: 50%;
+}
+#big_wrap > div {
+  width: 48%;
+  padding-bottom: 48%;
+  margin: 1%;
+}
+#small_wrap > div {
+  width: 31.333%;
+  padding-bottom: 31.333%;
+  margin: 1%;
+}
+
 footer {
     background: black;
     padding: 30px 0;
@@ -27,6 +47,16 @@ nav ul {
     margin: 0;
 }
 
+.container {
+    width:980px;
+    float:left;
+}
+.logo-box {
+    width:245px;
+    float:left;
+    height:150px;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -40,4 +70,9 @@ nav ul li {
 nav ul li:hover {
     background-color: blue;
     padding: 5px;
+}
+.col {
+  float: left;
+  margin: 5px 15px 0px 0px;
+  width: 32%;
 }
