@@ -72,8 +72,15 @@ nav ul li:hover {
     background-color: blue;
     padding: 5px;
 }
-.col {
-  float: left;
-  margin: 5px 15px 0px 0px;
-  width: 32%;
+
+.row {}
+
+.col1 {
+    float: left;
+    margin: 5px 15px 10px 0px;
+    width: 31%;
+  }
+footer {
+  clear: both;
+
 }
