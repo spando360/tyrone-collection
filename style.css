@@ -15,7 +15,7 @@ div {
   float: left;
 }
 div > div {
-  background: #2C3E50;
+  background: #white;
 }
 #big_wrap, #small_wrap {
   width: 50%;
